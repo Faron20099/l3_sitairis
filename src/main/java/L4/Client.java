@@ -12,6 +12,7 @@ public class Client {
             byte[] sendData;
             byte[] receiveData = new byte[1024];
             Scanner scanner = new Scanner(System.in);
+            System.out.print("Комент по приколу: ");
             System.out.print("Введите значения дя x y z через запятую: ");
             String values = scanner.nextLine();
             sendData = values.getBytes();
